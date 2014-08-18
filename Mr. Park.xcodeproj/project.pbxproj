@@ -19,6 +19,13 @@
 		0A6869D719A26D9B00496076 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A6869BF19A26D9B00496076 /* UIKit.framework */; };
 		0A6869DF19A26D9B00496076 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0A6869DD19A26D9B00496076 /* InfoPlist.strings */; };
 		0A6869E119A26D9B00496076 /* Mr__ParkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6869E019A26D9B00496076 /* Mr__ParkTests.m */; };
+		0A6869EB19A26DBF00496076 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A6869EA19A26DBF00496076 /* Storyboard.storyboard */; };
+		0A6869FA19A26FEA00496076 /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6869F919A26FEA00496076 /* ListViewController.m */; };
+		0A6869FD19A2702400496076 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6869FC19A2702400496076 /* MapViewController.m */; };
+		0A686A0019A2703800496076 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6869FF19A2703800496076 /* DetailViewController.m */; };
+		0A686A0319A2704F00496076 /* FeedbackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A686A0219A2704F00496076 /* FeedbackViewController.m */; };
+		0A686A0619A2706900496076 /* TimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A686A0519A2706900496076 /* TimerViewController.m */; };
+		0A686A0919A2708300496076 /* ReminderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A686A0819A2708300496076 /* ReminderViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +55,19 @@
 		0A6869DC19A26D9B00496076 /* Mr. ParkTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Mr. ParkTests-Info.plist"; sourceTree = "<group>"; };
 		0A6869DE19A26D9B00496076 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0A6869E019A26D9B00496076 /* Mr__ParkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Mr__ParkTests.m; sourceTree = "<group>"; };
+		0A6869EA19A26DBF00496076 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		0A6869F819A26FEA00496076 /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
+		0A6869F919A26FEA00496076 /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
+		0A6869FB19A2702400496076 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		0A6869FC19A2702400496076 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		0A6869FE19A2703800496076 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		0A6869FF19A2703800496076 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		0A686A0119A2704F00496076 /* FeedbackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedbackViewController.h; sourceTree = "<group>"; };
+		0A686A0219A2704F00496076 /* FeedbackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedbackViewController.m; sourceTree = "<group>"; };
+		0A686A0419A2706900496076 /* TimerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimerViewController.h; sourceTree = "<group>"; };
+		0A686A0519A2706900496076 /* TimerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimerViewController.m; sourceTree = "<group>"; };
+		0A686A0719A2708300496076 /* ReminderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReminderViewController.h; sourceTree = "<group>"; };
+		0A686A0819A2708300496076 /* ReminderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReminderViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,10 +127,10 @@
 		0A6869C119A26D9B00496076 /* Mr. Park */ = {
 			isa = PBXGroup;
 			children = (
-				0A6869CA19A26D9B00496076 /* AppDelegate.h */,
-				0A6869CB19A26D9B00496076 /* AppDelegate.m */,
-				0A6869CD19A26D9B00496076 /* Images.xcassets */,
-				0A6869C219A26D9B00496076 /* Supporting Files */,
+				0A6869EF19A26E0C00496076 /* Resource */,
+				0A6869F119A26EAC00496076 /* AppDelegate */,
+				0A6869F019A26E5E00496076 /* Database */,
+				0A6869EC19A26DCA00496076 /* UIViewController */,
 			);
 			path = "Mr. Park";
 			sourceTree = "<group>";
@@ -142,6 +162,115 @@
 				0A6869DD19A26D9B00496076 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0A6869EC19A26DCA00496076 /* UIViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0A6869EE19A26DF400496076 /* ViewController */,
+				0A6869ED19A26DDE00496076 /* Storyboard */,
+			);
+			name = UIViewController;
+			sourceTree = "<group>";
+		};
+		0A6869ED19A26DDE00496076 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				0A6869EA19A26DBF00496076 /* Storyboard.storyboard */,
+			);
+			name = Storyboard;
+			sourceTree = "<group>";
+		};
+		0A6869EE19A26DF400496076 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0A6869F219A26F1A00496076 /* List */,
+				0A6869F319A26F2700496076 /* Mainmap */,
+				0A6869F419A26F4300496076 /* Details */,
+				0A6869F519A26F4F00496076 /* Feedback */,
+				0A6869F619A26F5C00496076 /* Timer */,
+				0A6869F719A26F6500496076 /* Reminder */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		0A6869EF19A26E0C00496076 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				0A6869CD19A26D9B00496076 /* Images.xcassets */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		0A6869F019A26E5E00496076 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Database;
+			sourceTree = "<group>";
+		};
+		0A6869F119A26EAC00496076 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				0A6869CA19A26D9B00496076 /* AppDelegate.h */,
+				0A6869CB19A26D9B00496076 /* AppDelegate.m */,
+				0A6869C219A26D9B00496076 /* Supporting Files */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		0A6869F219A26F1A00496076 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				0A6869F819A26FEA00496076 /* ListViewController.h */,
+				0A6869F919A26FEA00496076 /* ListViewController.m */,
+			);
+			name = List;
+			sourceTree = "<group>";
+		};
+		0A6869F319A26F2700496076 /* Mainmap */ = {
+			isa = PBXGroup;
+			children = (
+				0A6869FB19A2702400496076 /* MapViewController.h */,
+				0A6869FC19A2702400496076 /* MapViewController.m */,
+			);
+			name = Mainmap;
+			sourceTree = "<group>";
+		};
+		0A6869F419A26F4300496076 /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				0A6869FE19A2703800496076 /* DetailViewController.h */,
+				0A6869FF19A2703800496076 /* DetailViewController.m */,
+			);
+			name = Details;
+			sourceTree = "<group>";
+		};
+		0A6869F519A26F4F00496076 /* Feedback */ = {
+			isa = PBXGroup;
+			children = (
+				0A686A0119A2704F00496076 /* FeedbackViewController.h */,
+				0A686A0219A2704F00496076 /* FeedbackViewController.m */,
+			);
+			name = Feedback;
+			sourceTree = "<group>";
+		};
+		0A6869F619A26F5C00496076 /* Timer */ = {
+			isa = PBXGroup;
+			children = (
+				0A686A0419A2706900496076 /* TimerViewController.h */,
+				0A686A0519A2706900496076 /* TimerViewController.m */,
+			);
+			name = Timer;
+			sourceTree = "<group>";
+		};
+		0A6869F719A26F6500496076 /* Reminder */ = {
+			isa = PBXGroup;
+			children = (
+				0A686A0719A2708300496076 /* ReminderViewController.h */,
+				0A686A0819A2708300496076 /* ReminderViewController.m */,
+			);
+			name = Reminder;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,6 +350,7 @@
 			files = (
 				0A6869C619A26D9B00496076 /* InfoPlist.strings in Resources */,
 				0A6869CE19A26D9B00496076 /* Images.xcassets in Resources */,
+				0A6869EB19A26DBF00496076 /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,8 +369,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A686A0919A2708300496076 /* ReminderViewController.m in Sources */,
+				0A686A0019A2703800496076 /* DetailViewController.m in Sources */,
 				0A6869CC19A26D9B00496076 /* AppDelegate.m in Sources */,
+				0A686A0619A2706900496076 /* TimerViewController.m in Sources */,
 				0A6869C819A26D9B00496076 /* main.m in Sources */,
+				0A6869FA19A26FEA00496076 /* ListViewController.m in Sources */,
+				0A6869FD19A2702400496076 /* MapViewController.m in Sources */,
+				0A686A0319A2704F00496076 /* FeedbackViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
